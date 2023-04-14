@@ -32,26 +32,21 @@ input.onGesture(Gesture.ThreeG, function () {
             # . . . #
             # # # # #
             `)
-    } else if (false) {
-        if (hand == 2) {
-            basic.showLeds(`
-                # # . . #
-                # # . # .
-                . . # . .
-                # # . # .
-                # # . . #
-                `)
-        } else if (hand == 3) {
-            basic.showLeds(`
-                . . . . .
-                . # # # .
-                . # # # .
-                . # # # .
-                . . . . .
-                `)
-        }
+    } else if (hand == 2) {
+        basic.showLeds(`
+            # # . . #
+            # # . # .
+            . . # . .
+            # # . # .
+            # # . . #
+            `)
+    } else if (hand == 3) {
+        basic.showLeds(`
+            . . . . .
+            . # # # .
+            . # # # .
+            . # # # .
+            . . . . .
+            `)
     }
-})
-basic.forever(function () {
-	
 })
